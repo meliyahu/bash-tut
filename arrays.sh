@@ -16,4 +16,6 @@ for person in "${people[@]}"; do
 done
 echo ""
 echo "The first one is: ${people[0]}"
+echo "The length of the first element is: ${#people}"
+# or just echo "The first one is: ${people}"
 echo "And the last one is: ${people[${#people[@]} - 1]}"
